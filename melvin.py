@@ -34,7 +34,6 @@ def run():
 				s.sendto(data,addr)
 			print(i +" Packets FROM MELVIN")
 		except:
-			s.close()
 			print("[!] MELVIN IS HERE DUDE! ")
 
 def run2():
